@@ -39,7 +39,7 @@ import analysis
 analysis.analysis(LOG_FILE_NAMES, START_DATE, END_DATE, EXPORT_FILE_NAME)
 ```
 
--LOG_FILE_NAMES -str型の/targets 内のログファイル名のリスト
--START_DATE -解析の開始する日付をyyyymmdd形式 str型の
--END_DATE -解析の終了する日付をyyyymmdd形式 str型の
--EXPORT_FILE_NAME -出力ファイル名 str型
+* LOG_FILE_NAMES -str型の/targets 内のログファイル名のリスト
+* START_DATE -解析の開始する日付をyyyymmdd形式 str型の
+* END_DATE -解析の終了する日付をyyyymmdd形式 str型の
+* EXPORT_FILE_NAME -出力ファイル名 str型

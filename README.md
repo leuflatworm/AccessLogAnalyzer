@@ -1,7 +1,7 @@
 # AccessLogAnalyzer
 Apacheのアクセスログファイルから一時間ごとのリモートホストごとのアクセス数を比較し、多い順に出力します。 
 
-# 依存 Dependence
+## 依存 Dependence
 python3 (python3.7.6にて動作確認済み)
 
 
@@ -32,13 +32,14 @@ yyyymmdd:hh:00~hh:59, リモートホスト名_1:アクセス数, リモート�
 ## 開発者向け
 analysis.pyと同ファイルにあるpythonスクリプトからであれば以下のように利用できます。
 
+
 ```
 import analysis
 
 analysis.analysis(LOG_FILE_NAMES, START_DATE, END_DATE, EXPORT_FILE_NAME)
 ```
 
-LOG_FILE_NAMES -str型の/targets 内のログファイル名のリスト
-START_DATE -解析の開始する日付をyyyymmdd形式 str型の
-END_DATE -解析の終了する日付をyyyymmdd形式 str型の
-EXPORT_FILE_NAME -出力ファイル名 str型
+-LOG_FILE_NAMES -str型の/targets 内のログファイル名のリスト
+-START_DATE -解析の開始する日付をyyyymmdd形式 str型の
+-END_DATE -解析の終了する日付をyyyymmdd形式 str型の
+-EXPORT_FILE_NAME -出力ファイル名 str型

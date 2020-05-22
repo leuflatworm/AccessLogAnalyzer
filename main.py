@@ -136,7 +136,7 @@ def cmd(opt):
 
 
     Filenames = a["f"].split(",")
-    analysis.analysis(Filenames, a["s"], a["e"], a["x"])
+    analysis.analysis(Filenames, a["sd"], a["ed"], a["ex"])
 
 
 

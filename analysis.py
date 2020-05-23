@@ -36,7 +36,7 @@ def analysis(Files, sd, ed, ex, fn = None):
         while line:
             elm = line.split(" ")
             IP = elm[0]
-            date = elm[4]
+            date = elm[3]
             dd = date[1:3]
             mm = month_dict[date[4:7]]
             yyyy = date[8:12]

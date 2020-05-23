@@ -13,7 +13,7 @@ def divider(Files, l):
         while line:
             ##ログデータの中から日付データを取り出します。
             elm = line.split(" ")
-            date = elm[4]
+            date = elm[3]
             dd = date[1:3]
             mm = month_dict[date[4:7]]
             yyyy = date[8:12]

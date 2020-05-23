@@ -15,7 +15,7 @@ def main():
     print("| コマンドラインオプションを指定しない場合は対話モードで起動します。                               |")
     print("|                                                                                                  |")
     print("| 起動時に以下の様に指定した場合は結果のみ出力します。                                             |")
-    print("| python3 main.py f=FILE_NAME sd=START_DATE(yyyymmdd) ed=END_DATE(yyyymmdd) ex=EXPORT_FILE l=SPEED |")
+    print("| python3 main.py f=FILE_NAME sd=START_DATE(yyyymmdd) ed=END_DATE(yyyymmdd) ex=EXPORT_FILE l=LEVEL |")
     print("====================================================================================================")
 
     Filenames = [] #対象とするファイルのリスト

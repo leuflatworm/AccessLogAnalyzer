@@ -15,7 +15,7 @@ python3 (python3.7.6にて動作確認済み)
 また、以下の様にコマンドラインオプションを用いることもできます。
 
 ```
-python3 main.py f=FILE_NAME sd=START_DATE(yyyymmdd) ed=END_DATE(yyyymmdd) ex=EXPORT_FILE_NAME l=SPEED_LEVEL
+python3 main.py f=FILE_NAME sd=START_DATE(yyyymmdd) ed=END_DATE(yyyymmdd) ex=EXPORT_FILE_NAME l=MEMORY_SAVING_LEVEL
 ```
 
 コマンドラインオプションを用いた場合は入力しなかったものはデフォルトの指定なしとして扱われます。
